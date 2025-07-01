@@ -57,6 +57,16 @@ table {
     margin: 0 auto;
 }
 
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
 
 .brand-hero {
     height: 400px;
@@ -93,16 +103,64 @@ table {
 
 .brand-intro h2 {
     color: #57A203;
-    font-size: 20px;
-    font-weight: 700;
     line-height: 1.2;
     margin-bottom: 12px;
 }
 
 .brand-intro p {
     color: #212529;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
     margin-bottom: 4px;
+}
+
+.brand-product-img {
+    width: 1076px;
+    height: 717px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.brand-product-img img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-position: center;
+}
+
+.brand-description {
+    margin: 0 auto;
+    width: 856px;
+    border-bottom: solid 1px #DEE2E6;
+    padding-bottom: 32px;
+    margin-bottom: 48px;
+}
+
+.brand-description h2 {
+    color: #212529;
+    margin-bottom: 24px;
+}
+
+.brand-description h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #57A203;
+    margin-bottom: 16px;
+}
+
+.brand-description p {
+    color: #212529;
+    margin-bottom: 16px;
+}
+
+
+.brand-milestone {
+    margin: 0 auto;
+    width: 856px;
+}
+
+.brand-milestone h2 {
+    margin-bottom: 24px;
+}
+
+.brand-milestone li {
+    margin-bottom: 12px;
 }
