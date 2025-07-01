@@ -60,6 +60,8 @@ table {
 h2 {
     font-size: 24px;
     font-weight: 700;
+    color: #212529;
+    margin-bottom: 24px;
 }
 
 p {
@@ -134,10 +136,6 @@ p {
     margin-bottom: 48px;
 }
 
-.brand-description h2 {
-    color: #212529;
-    margin-bottom: 24px;
-}
 
 .brand-description h3 {
     font-size: 20px;
@@ -155,12 +153,65 @@ p {
 .brand-milestone {
     margin: 0 auto;
     width: 856px;
-}
-
-.brand-milestone h2 {
+    border-bottom: 1px solid #DEE2E6;
+    padding-bottom: 48px;
     margin-bottom: 24px;
 }
 
+
 .brand-milestone li {
     margin-bottom: 12px;
+    list-style-type: disc;
+}
+
+.brand-concept {
+    width: 856px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+    margin-bottom: 48px;
+    border-bottom: 1px solid #DEE2E6;
+}
+
+
+.brand-concept li {
+    margin-bottom: 12px;
+    padding-left: 12px;
+    border-left: 3px solid #DEE2E6;
+}
+
+.brand-story {
+    width: 856px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+    margin-bottom: 48px;
+    border-bottom: 1px solid #DEE2E6;
+}
+
+.brand-story li {
+    margin-bottom: 14px;
+}
+
+.brand-story li a {
+    color: #57A203;
+    text-decoration: none;
+}
+
+.brand-story li a span {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #57A203;
+}
+
+.footer {
+    background: #F8F9FA;
+    height: 174px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text {
+    font-size: 14px;
+    line-height: 150;
+    color: #6C757D;
+    text-align: center;
 }
